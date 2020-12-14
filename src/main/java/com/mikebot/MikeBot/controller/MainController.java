@@ -9,7 +9,7 @@ import com.mikebot.MikeBot.controller.Messaging;
 public class MainController {
 	public void start() {
 		// Permission code : 337984
-		String token = "Nzg1MDM2OTgzOTU2NTM3Mzk1.X8yAqg.DTCZrPn6x--hCXhtAeRwk4JI4mo";
+		String token = <insert your token>;
 	    //DiscordClientBuilder builder = DiscordClientBuilder.create(token);
 		 GatewayDiscordClient client = DiscordClientBuilder.create(token)
 	                .build()
